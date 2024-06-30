@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cont{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        #cont > div > img {
+            height: 300px;
+            width: 300px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* justify-content: center; */
+            /* place-content: center;
+            place-items: center; */
+            
+            
+        }
+        #cont > div{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* place-content: center;
+            align-items: center;
+            justify-content: center; */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont"></div>
+</body>
+</html>
+<script src="index.js"></script>
